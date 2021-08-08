@@ -16,8 +16,8 @@ subCategories: [ "Time" ]
 --
 
 [float]
-=== Description
-Returns the number of milliseconds since the Arduino board began running the current program. This number will overflow (go back to zero), after approximately 50 days.
+=== Descripción
+Regresa el número de milisegundos desde que la placa Arduino inició el programa actual. Este número se sobreescribirá (volverá a cero), desdués de aproximadamente 50 días.
 [%hardbreaks]
 
 
@@ -28,12 +28,12 @@ Returns the number of milliseconds since the Arduino board began running the cur
 
 [float]
 === Parameters
-Nothing
+Ninguno
 
 [float]
-=== Returns
+=== Regresa
 Number of milliseconds since the program started (unsigned long)
-
+Número de milisegundos desde que el programa inició (sin declararse long)
 --
 // OVERVIEW SECTION ENDS
 
